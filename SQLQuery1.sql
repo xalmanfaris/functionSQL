@@ -1,5 +1,3 @@
--- Created by GitHub Copilot in SSMS - review carefully before executing
-
 CREATE OR ALTER PROCEDURE dbo.GetAllBookTitles
 AS
 BEGIN
@@ -36,4 +34,5 @@ BEGIN
         WHERE a.AuthorName = @AuthorName
     );
 END;
+
 GO
